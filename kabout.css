@@ -1,0 +1,172 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior:smooth;
+font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+list-style: none;
+text-decoration: none;
+}
+
+header{position:fixed; width: 100%; top: 0; right: 0; z-index: 1000; display: flex; align-items: center; justify-content: space-between; padding:35px 10%; }
+
+
+.logo img{max-width: 120px;
+          height: auto; margin-left: 100px; margin-top: -10px;}
+.navmenu{display: flex;margin-left: 500px;animation: fadeIn 1s;}
+.navmenu a{color: #FF4563;font-size: 16px; padding: 10px 20px; font-weight: 400;}
+.navmenu a:hover{color:#FCA5A8;}
+ul li .active {
+	background-color:#FF4563;
+    color: white;
+    border-radius: 7%;}
+.owner {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.footer .contact-button:hover {
+  color: #000000;
+}
+
+
+.owner img {
+  width: 350px;
+  height: 300px;
+  border-radius: 30%;
+  margin-bottom: 20px;
+}
+
+.owner h2 {
+  font-size: 24px;
+  margin: 0;
+  font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"
+}
+
+.OC {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  color: #FF6AB5;
+  background-color: black;
+  font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"
+}
+
+span {color:#FF6AB5; font-weight:bold;font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"}
+
+.short {color:black; font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"}
+h1 {
+ font-size:24px;
+  margin: 0;
+}
+
+.feature {
+  padding: 50px;
+  border-bottom: 1px solid #ddd;
+  background-image: url("color kri.jpg");
+ 
+}
+
+.feature-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.feature-image {
+  flex: 1;
+}
+
+.feature-image img {
+  width: 100%;
+  height: auto;
+}
+
+.feature-text {
+  flex: 1;
+  padding-left: 50px;
+}
+
+.feature-text h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"
+}
+
+.feature-text p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5;
+  font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+  transition: all .42s ease;}
+
+.btn:hover {
+  background-color: #555;
+}
+.video-section {
+  position: relative;
+  padding: 40px;
+  background-color:  #FFF1DE;
+  text-align: center;
+}
+
+.video-wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.video-wrapper iframe {
+  width: 100%;
+  height: 400px;
+}
+
+.footer .privacy-policy-buttton {display: inline-block;
+  padding: 10px 20px;
+
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all .42s ease;}
+
+.footer .privacy-policy-buttton:hover {
+	color: #000000;}
+.footer {
+  background-color: #FF4563;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer .contact,
+.footer .privacy-policy {
+  margin-bottom: 10px;
+}
+
+.footer .contact-button {
+  display: inline-block;
+  padding: 10px 20px;
+
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+.footer .contact-button:hover {
+	color: #000000;}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
